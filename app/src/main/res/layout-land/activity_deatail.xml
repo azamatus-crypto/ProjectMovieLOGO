@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".DeatailActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/imageViewbigposter"
+        android:contentDescription="@string/big_posters"
+        android:adjustViewBounds="true"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+    <ImageView
+        android:onClick="onCklickaddtofavorite"
+        android:id="@+id/imageViewaddtofavorites"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewbigposter"
+        app:layout_constraintTop_toTopOf="@+id/imageViewbigposter"
+        app:srcCompat="@drawable/starsforandroid" />
+    <ScrollView
+        android:id="@+id/scrolviewinfomovie"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageViewbigposter"
+        android:layout_width="0dp"
+        android:layout_height="0dp">
+        <include
+
+            android:id="@+id/movieinfo"
+            layout="@layout/movie_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

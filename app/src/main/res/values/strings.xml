@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Watch learn and enjoy</string>
+    <string name="posters">Posters</string>
+    <string name="big_posters">BigPosters</string>
+    <string name="posterplay">posterplay</string>
+    <string name="popular">Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="original_name">Original Name</string>
+    <string name="description">Description</string>
+    <string name="date_of_realise">Date Of Realise</string>
+    <string name="ratings">Ratings</string>
+    <string name="name">Name</string>
+</resources>

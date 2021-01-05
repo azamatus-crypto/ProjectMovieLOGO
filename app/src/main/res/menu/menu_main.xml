@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/main_menu" android:title="Main"/>
+<item android:id="@+id/main_favorite" android:title="Favorite"/>
+<item android:id="@+id/main_webweiew" android:title="Watch online russian"/>
+<item android:id="@+id/main_webweiewenglish" android:title="Watch online english"/>
+</menu>
